@@ -2,13 +2,14 @@
 
 .sidebar {
     background: var(--black);
-    width: 15vw;
+    width: 17vw;
     height: 100vh;
     border-right: 0.2px solid var(--yellow2);
+     position: fixed; 
 }
 
 .bars {
-    position: absolute;
+    position: fixed;
     right: 3%;
     top: 3%;
     font-size: 25px;
@@ -69,16 +70,16 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de alfa para cambiar la opacidad */
-    z-index: 99; /* Asegura que esté por encima del contenido */
+    z-index: 98; /* Asegura que esté por encima del contenido */
 }
 
-.sidebar.fixed {
+.sidebar {
     z-index: 99; /* Asegura que el menú esté por encima del fondo gris transparente */
 }
 
-@media screen and (max-width: 1324px){
+@media screen and (max-width: 1433px){
     .sidebar {
-        width: 210px;
+        width: 250px;
     }
     
 }

@@ -1,8 +1,15 @@
+import Inicio from "../../paginas/inicio/Inicio"
+import './page.css'
 
 
 const Page = () => {
   return (
-    <div>Page</div>
+    
+    <div className="page">
+    <Inicio/>
+    </div>
+    
+
   )
 }
 

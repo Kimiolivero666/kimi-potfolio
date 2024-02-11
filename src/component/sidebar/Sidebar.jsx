@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="bars d-block d-xl-none" onClick={toggleMenu}>
         <HiBars3BottomRight />
       </div>
-      <div className={`sidebar fixed ${menuVisible ? 'd-block' : 'd-none'} d-xl-block`}>
+      <div className={`sidebar ${menuVisible ? 'd-block' : 'd-none'} d-xl-block`}>
         <section className='contenedor'>
           <h1 className='brand'>Kimi Olivero</h1>
           <h3 className='sub-titulo'>Desarrollador Web</h3>
