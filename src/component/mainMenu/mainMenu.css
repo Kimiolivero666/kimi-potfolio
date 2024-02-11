@@ -1,0 +1,23 @@
+/*     hover:text-amarillo transition-colors duration-300 hover:bg-gray-500/5 */
+
+li{
+    list-style: none;
+}
+
+.main-menu{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 20%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid var(--yellow2); 
+    cursor: pointer; 
+}
+
+.main-menu:hover{
+    color: var(--yellow);
+    transition: 1s;
+    background: var(--grey);
+}
