@@ -1,0 +1,59 @@
+button {
+    text-decoration: none;
+    border: 3px solid var(--yellow);
+    color: transparent;
+    background: var(--black);
+    padding: 10px 25px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+button:before {
+    content: "Descargar CV";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background: var(--yellow);
+    font-weight: 800;
+    text-transform: uppercase;
+    top: 0;
+    left: 100%;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+}
+
+button:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+}
+
+button:after {
+    content: "Descargar CV";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--black);
+    background: var(--yellow);
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+}
+
+button:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+}
