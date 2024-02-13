@@ -1,0 +1,45 @@
+
+
+
+.img-card{
+    width: 95%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    height: auto; /* Altura automática para mantener la proporción */
+    transition: transform 0.8s ease; /* Transición suave del efecto de zoom */
+}
+
+.zoom-container {
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+  }
+  
+  
+  .zoom-container:hover .img-card {
+    transform: scale(1.1); /* Escala la imagen al 120% en el hover */
+  }
+
+
+  .titulo-sub-tarjeta h5{
+    color: var(--darkGrey);
+    font-size: 1rem;
+}
+
+.titulo-sub-tarjeta h3{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+  
+.zoom-container:hover + .titulo-sub-tarjeta h3 {
+    color: var(--yellow); 
+}
+
+
+
+
+
+
+

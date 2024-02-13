@@ -75,6 +75,10 @@
 
 .sidebar {
     z-index: 99; /* Asegura que el menú esté por encima del fondo gris transparente */
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Alinea el menú en la parte superior */
+    left: 0; /* Alinea el menú en la parte izquierda */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
 }
 
 @media screen and (max-width: 1433px){
@@ -88,7 +92,7 @@
     .sidebar {
         width: 250px;
         height: 100vh;
-        position: absolute;
+        position: fixed;
     }
     
 }

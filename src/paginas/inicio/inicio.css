@@ -1,14 +1,15 @@
 .inicio {
     background: var(--black);
     width: 100%;
-    height: 100vh;
+    height: full;
+    border-bottom:  0.2px solid var(--yellow2);
 }
 
 /* imagen */
 
 .imagen-hero {
     object-fit: cover;
-    width: 516px;
+    width: 515px;
 }
 
 /* parte izquierda */

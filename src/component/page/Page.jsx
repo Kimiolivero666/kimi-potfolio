@@ -1,4 +1,5 @@
 import Inicio from "../../paginas/inicio/Inicio"
+import Trabajos from "../../paginas/trabajos/Trabajos"
 import './page.css'
 
 
@@ -7,6 +8,7 @@ const Page = () => {
     
     <div className="page">
     <Inicio/>
+    <Trabajos/>
     </div>
     
 
