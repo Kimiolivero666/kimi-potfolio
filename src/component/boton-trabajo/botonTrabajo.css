@@ -1,0 +1,17 @@
+
+
+.BotonTrabajo button{
+    width: 100%;
+    background: transparent;
+    color: var(--yellow);
+    border: 2px solid var(--yellow);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+}
+
+.BotonTrabajo button:hover{
+    background: var(--yellow3);
+    transition: 1s;
+}

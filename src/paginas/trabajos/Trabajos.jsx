@@ -5,14 +5,19 @@ import './trabajos.css';
 import CardTrabajos from '../../component/card-trabajos/CardTrabajos';
 
 // imagenes
+
 import Sneakers1 from '../../assets/Sneakers1.png'
 import Lizzy1 from '../../assets/Lizzy1.png'
 import Little1 from '../../assets/Little1.png'
+import Biatech1 from '../../assets/Biatech1.png'
+import Bimex1 from '../../assets/Bimex1.png'
+import BotonTrabajo from '../../component/boton-trabajo/BotonTrabajo';
+
 
 const Trabajos = () => {
   return (
     <div className='trabajos'>
-      <motion.div 
+      <motion.div
         className="trabajos-titulo text-center"
         initial={{ y: 100, opacity: 0 }} // Posición inicial del título (abajo y no visible)
         animate={{ y: 0, opacity: 1 }} // Posición final del título (arriba y completamente visible)
@@ -24,26 +29,28 @@ const Trabajos = () => {
         <div className="contenedor-tarjetas">
           <Row>
             <Col xs={12} sm={6} lg={4} className="text-center">
-              <CardTrabajos imagen={Sneakers1} subTitulo='E-commerce' TituloProyecto='SNEAKERS'/>
+              <CardTrabajos imagen={Sneakers1} subTitulo='E-commerce' TituloProyecto='SNEAKERS' />
             </Col>
             <Col xs={12} sm={6} lg={4} className="text-center">
-              <CardTrabajos imagen={Lizzy1} subTitulo='E-commerce' TituloProyecto='Lizzy'/>
+              <CardTrabajos imagen={Lizzy1} subTitulo='E-commerce' TituloProyecto='Lizzy' />
             </Col>
             <Col xs={12} sm={6} lg={4} className="text-center">
-              <CardTrabajos imagen={Little1} subTitulo='Portafolio de agencia' TituloProyecto='Little'/>
+              <CardTrabajos imagen={Little1} subTitulo='Portafolio de agencia' TituloProyecto='Little' />
+            </Col>
+          
+
+        
+            <Col xs={12} sm={6} lg={4} className="text-center">
+              <CardTrabajos imagen={Biatech1} subTitulo='Página coorporativa' TituloProyecto='BIATECH' />
+            </Col>
+            <Col xs={12} sm={6} lg={4} className="text-center">
+              <CardTrabajos imagen={Bimex1} subTitulo='Página coorporativa' TituloProyecto='BIMEX' />
+            </Col>
+            <Col xs={12} sm={6} lg={4} className="text-center">
+              <CardTrabajos imagen={Little1} subTitulo='Portafolio de agencia' TituloProyecto='Little' />
             </Col>
           </Row>
-          <Row>
-   <Col xs={12} sm={6} lg={4} className="text-center">
-     <CardTrabajos />
-   </Col>
-   <Col xs={12} sm={6} lg={4} className="text-center">
-     <CardTrabajos />
-   </Col>
-   <Col xs={12} sm={6} lg={4} className="text-center">
-     <CardTrabajos />
-   </Col>
- </Row>
+          <BotonTrabajo/>
         </div>
       </Container>
     </div>

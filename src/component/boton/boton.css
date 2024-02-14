@@ -1,4 +1,4 @@
-button {
+.boton button {
     text-decoration: none;
     border: 3px solid var(--yellow);
     color: transparent;
@@ -8,7 +8,7 @@ button {
     position: relative;
 }
 
-button:before {
+.boton button:before {
     content: "Descargar CV";
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@ button:before {
     opacity: 0;
 }
 
-button:hover:before {
+.boton button:hover:before {
     transform: scale(1) rotatey(360deg);
     left: 0;
     opacity: 1;
 }
 
-button:after {
+.boton button:after {
     content: "Descargar CV";
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ button:after {
     opacity: 1;
 }
 
-button:hover:after {
+.boton button:hover:after {
     transform: scale(0) rotatey(360deg);
     left: -100%;
     opacity: 0;

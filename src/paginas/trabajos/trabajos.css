@@ -3,6 +3,7 @@
 
 .trabajos {
     background: var(--black);
+    border-bottom:  0.2px solid var(--yellow2);
 }
 
 

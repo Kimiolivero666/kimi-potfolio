@@ -43,7 +43,7 @@ const Inicio = () => {
                                 transition={{ duration: 0.5, delay: 0.4 }}
                             >
                                 <h3>PROGRAMADOR FRONT-END</h3>
-                                <p>Mi enfoque se ecentra en combinar diseño
+                                <p>Mi enfoque se centra en combinar diseño
                                     elegante con una implementación técnica sólida
                                     para brindar a los usuarios una experiencia única.</p>
                             </motion.div>

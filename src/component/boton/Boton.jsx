@@ -2,7 +2,9 @@ import  './boton.css'
 
 const Boton = () => {
   return (
-    <button>Descargar CV</button>
+    <div className='boton'>
+    <button >Descargar CV</button>
+    </div>
   )
 }
 
