@@ -1,32 +1,13 @@
-
-
-
-.trabajos {
+.testimonios{
     background: var(--black);
     border-bottom:  0.2px solid var(--yellow2);
 }
 
-
-.trabajos-titulo {
+.testimonios-titulo {
     padding-bottom: 3rem;
     padding-top: 8rem;
 }
 
-
-.contenedor-tarjetas {
-    width: 80%;
-    margin-left: 10%;
+.contenedor-tarjetas{
+    margin-bottom: 5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
