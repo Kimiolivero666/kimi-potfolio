@@ -27,8 +27,9 @@
 }
 
 .titulo-testimonio{
-    color: var(--white);
+    color: var(--yellow);
     font-size: 18px;
+    font-weight: 400;
 }
 
 .subtitulo-testimonio{
