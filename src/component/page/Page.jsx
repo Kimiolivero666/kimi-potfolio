@@ -2,6 +2,7 @@
 import Inicio from "../../paginas/inicio/Inicio"
 import Testimonios from "../../paginas/testimonios/Testimonios"
 import Trabajos from "../../paginas/trabajos/Trabajos"
+import Empresas from "../empresas/Empresas"
 import './page.css'
 
 
@@ -12,6 +13,7 @@ const Page = () => {
     <Inicio/>
     <Trabajos/>
     <Testimonios/>
+    <Empresas/>
     </div>
     
 
