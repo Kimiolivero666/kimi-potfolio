@@ -12,10 +12,12 @@
     width: 80%;
     margin-left: 10%;
     display: flex;
-    gap: 4rem;
     margin-bottom: 3rem;
 }
 
 .logos-empresas img{
     width: 200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
