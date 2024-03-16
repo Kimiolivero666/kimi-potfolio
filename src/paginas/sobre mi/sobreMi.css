@@ -5,10 +5,14 @@
 
 }
 
+.sobre-mi-titulo {
+    padding-bottom: 3rem;
+    padding-top: 8rem;
+}
+
 .contenedor-sobre-mi {
     width: 80%;
     margin-left: 10%;
-    padding-top: 8rem;
     padding-bottom: 3rem;
 }
 
@@ -19,6 +23,5 @@
 .sobre-mi-info p {
     color: var(--white);
     font-size: 18px;
-    width: 440px;
     margin-top: 50px;
 }

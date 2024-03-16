@@ -5,6 +5,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+ ::-webkit-scrollbar { 
+   width: 0px; 
+ }  
+
+
+
 :root{
   --yellow: #e3b22a;
   --black: #000000;
