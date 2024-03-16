@@ -21,3 +21,15 @@
     margin-right: 1rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 680px){
+    .logos-empresas img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .logos-empresas img{
+        width: 100px;
+    }
+}

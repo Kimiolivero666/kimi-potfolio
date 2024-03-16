@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
 import  './boton.css'
 
-const Boton = () => {
+// eslint-disable-next-line no-unused-vars
+const Boton = (props) => {
   return (
     <div className='boton'>
-    <button >Descargar CV</button>
+    <button >{props.name}</button>
     </div>
   )
 }

@@ -1,8 +1,11 @@
 
+import Contacto from "../../paginas/contacto/Contacto"
+import Empresas from "../../paginas/empresas/Empresas"
 import Inicio from "../../paginas/inicio/Inicio"
+import SobreMi from "../../paginas/sobre mi/SobreMi"
 import Testimonios from "../../paginas/testimonios/Testimonios"
 import Trabajos from "../../paginas/trabajos/Trabajos"
-import Empresas from "../empresas/Empresas"
+
 import './page.css'
 
 
@@ -11,9 +14,11 @@ const Page = () => {
     
     <div className="page">
     <Inicio/>
+    <SobreMi/>
     <Trabajos/>
     <Testimonios/>
     <Empresas/>
+    <Contacto/>
     </div>
     
 

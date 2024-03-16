@@ -1,0 +1,24 @@
+.sobre-mi {
+    background: var(--black);
+    border-bottom: 0.2px solid var(--yellow2);
+
+
+}
+
+.contenedor-sobre-mi {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.sobre-mi-imagen img {
+    width: 100%;
+}
+
+.sobre-mi-info p {
+    color: var(--white);
+    font-size: 18px;
+    width: 440px;
+    margin-top: 50px;
+}

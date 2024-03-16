@@ -66,7 +66,7 @@ const Inicio = () => {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 1.4 }}
                             >
-                                <Boton />
+                                <Boton name='descargar cv' />
                             </motion.div>
                         </div>
                     </Col>

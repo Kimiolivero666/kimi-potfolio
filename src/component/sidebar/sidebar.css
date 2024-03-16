@@ -2,7 +2,7 @@
 
 .sidebar {
     background: var(--black);
-    width: 17vw;
+    width: 18vw;
     height: 100vh;
     border-right: 0.2px solid var(--yellow2);
     position: fixed; 

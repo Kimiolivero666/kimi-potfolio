@@ -12,6 +12,8 @@ import Lizzy1 from '../../assets/Lizzy1.png';
 import Little1 from '../../assets/Little1.png';
 import Biatech1 from '../../assets/Biatech1.png';
 import Bimex1 from '../../assets/Bimex1.png';
+import Chimichurri from '../../assets/Chimichurri.png';
+
 import { useEffect, useState } from 'react';
 
 const Trabajos = () => {
@@ -85,7 +87,7 @@ const Trabajos = () => {
                 animate={isVisible ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 2.8 }}
               >
-                <CardTrabajos imagen={Sneakers1} subTitulo='Página coorporativa' TituloProyecto='BIMEX' />
+                <CardTrabajos imagen={Chimichurri} subTitulo='Página coorporativa' TituloProyecto='CHIMICHURRI' />
               </motion.div>
             </Col>
           </Row>

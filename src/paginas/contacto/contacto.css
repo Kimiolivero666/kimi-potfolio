@@ -1,0 +1,39 @@
+.Contacto {
+    background: var(--black);
+    border-bottom: 0.2px solid var(--yellow2);
+    padding-bottom: 5rem;
+}
+
+.contacto-titulo {
+    padding-bottom: 3rem;
+    padding-top: 8rem;
+}
+
+.contacto-subtitulo {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.contacto-subtitulo p {
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+
+/* iconos */
+
+.contenedor-iconos-contacto {
+    position: relative;
+}
+
+.iconos-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.icono {
+    margin-bottom: 20px;
+}

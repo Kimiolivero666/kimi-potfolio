@@ -1,0 +1,63 @@
+
+
+.name-tel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.name{
+    width: 100%;
+}
+
+ .validate{
+    background: var(--blue);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: var(--white);
+    padding-left: 15px;
+}
+
+.validate-mensaje{
+    background: var(--blue);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 180px;
+    color: var(--white);
+    padding-left: 15px;
+}
+
+
+.validate::placeholder {
+    color: var(--white);
+}
+
+.validate-mensaje::placeholder{
+    color: var(--white);
+}
+
+.validate:focus {
+    color: var(--white);
+    padding-left: 10px;
+    outline: none;
+    box-shadow: 0 0 0 1px var(--yellow); 
+}
+
+.validate-mensaje:focus {
+    color: var(--white);
+    padding-left: 10px;
+    outline: none;
+    box-shadow: 0 0 0 1px var(--yellow); 
+}
+
+.error-message {
+    color: var(--yellow);
+}
+
+.submit{
+    margin-top: 0;
+    margin-left: 0;
+}
