@@ -37,8 +37,21 @@ const Carrusel = () => {
     return (
         <Swiper className='carrusel'
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={10}
+            spaceBetween={10}
+            slidesPerView={3} 
+
+            breakpoints={{
+                //  breakpoints para ajustar slidesPerView para tamaños de pantalla más pequeños
+                768: {
+                    slidesPerView: 6, 
+                    spaceBetween: 10 
+                },
+                968: {
+                    slidesPerView: 8,
+                    spaceBetween: 10 
+                }
+            }}
+        
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
