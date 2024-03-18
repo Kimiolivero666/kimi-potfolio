@@ -18,11 +18,11 @@ const Contacto = () => {
             <div className="contacto-subtitulo text-center">
                 <p>¡Gracias por visitar mi portafolio! No dudes en ponerte en contacto si tienes alguna pregunta o proyecto interesante en mente.
 
-</p>
+                </p>
             </div>
             <Container>
                 <Row>
-                    <Col md={3} className='contenedor-iconos-contacto'>
+                    <Col md={3} className='contenedor-iconos-contacto d-none d-md-block'>
                         <div className="iconos-contacto">
                             <FaLinkedinIn className="icono" />
                             <FiGithub className="icono" />
@@ -31,7 +31,8 @@ const Contacto = () => {
                         </div>
                     </Col>
                     <Col md={6}> <Formulario /></Col>
-                    <Col md={3}></Col>
+                    <Col md={3}>
+                    </Col>
                 </Row>
             </Container>
 

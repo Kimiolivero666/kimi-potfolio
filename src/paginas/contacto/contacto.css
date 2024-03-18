@@ -37,3 +37,14 @@
 .icono {
     margin-bottom: 20px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 767px){
+    .contacto-subtitulo {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+}
+    

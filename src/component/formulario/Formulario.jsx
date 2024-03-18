@@ -3,6 +3,13 @@ import './formulario.css';
 import { useForm } from "react-hook-form";
 import Boton from '../boton/Boton';
 
+// iconos
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FiGithub } from "react-icons/fi";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+
+
 const Formulario = () => {
 
     const { register, formState: { errors }, handleSubmit } = useForm({
@@ -13,7 +20,7 @@ const Formulario = () => {
         // Aquí puedes hacer lo que necesites con los datos del formulario
         console.log(data);
     };
-    
+
     return (
         <div>
             <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -37,6 +44,12 @@ const Formulario = () => {
                 </p>
                 <div className="submit">
                     <Boton className='boton-enviar' name='enviar' disabled={Object.keys(errors).length > 0} />
+                    <div className="box-iconos">
+                    <FaLinkedinIn className="icono" />
+                    <FiGithub className="icono" />
+                    <MdOutlineEmail className="icono" />
+                    <FaWhatsapp className="icono" />
+                    </div>
                 </div>
             </form>
         </div>
