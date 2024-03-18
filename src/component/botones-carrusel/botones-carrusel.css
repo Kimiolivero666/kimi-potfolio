@@ -1,0 +1,12 @@
+
+
+.BotonesCarrusel{
+    color: var(--yellow);
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.next-prev{
+    margin-right: 1rem;
+}

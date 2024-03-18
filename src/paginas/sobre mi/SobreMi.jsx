@@ -3,6 +3,7 @@ import {  Container } from 'react-bootstrap'
 import './sobreMi.css'
 import Titulo from '../../component/titulo/Titulo'
 import laptop from '../../assets/Laptop.png'
+import Carrusel from '../../component/carrusel/Carrusel'
 
 const SobreMi = () => {
     return (
@@ -23,6 +24,8 @@ const SobreMi = () => {
                             <p>Además de mi habilidad técnica, me considero un comunicador efectivo y un solucionador de problemas creativo. Disfruto colaborar en equipos multifuncionales para crear soluciones innovadoras que superen las expectativas del cliente.</p>
                             <p>Cuando no estoy codificando, me puedes encontrar explorando nuevas herramientas y frameworks, o disfrutando de actividades al aire libre. Estoy emocionado por seguir creciendo profesionalmente y contribuir al emocionante mundo del desarrollo web.</p>
                         </div>
+
+                        <Carrusel/>
                 </Container>
             </div>
         </section>
