@@ -31,3 +31,10 @@
     margin-top: 30px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 600px){
+    .sobre-mi-imagen{
+        height: 30vh;
+    }
+}
+    

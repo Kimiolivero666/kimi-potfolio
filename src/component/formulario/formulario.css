@@ -73,6 +73,11 @@
 /* responsive */
 
 @media screen and (max-width: 767px){
+
+    .form{
+        width: 90%;
+        margin-left: 5%;
+    }
     .name-tel{
         gap: 1rem;
     }
