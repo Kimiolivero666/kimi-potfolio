@@ -13,6 +13,9 @@ import Boton from "../../component/boton/Boton";
 const Inicio = () => {
     return (
         <div className='inicio'>
+            <div className="d-block d-lg-none text-center imagen-movile">
+                <img src={kimiMovile} alt="" />
+            </div>
             <Container>
                 <Row>
                     <Col lg={5} className='contenedor-imagen-hero d-none d-lg-block'>
@@ -72,9 +75,9 @@ const Inicio = () => {
                     </Col>
                 </Row>
             </Container>
-            <div className="d-block d-lg-none text-center imagen-movile">
-                <img src={kimiMovile} alt="" />
-            </div>
+
+
+
         </div>
     );
 }

@@ -3,6 +3,7 @@ import { useState } from "react";
 import MainMenu from "../mainMenu/MainMenu";
 import "./sidebar.css";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import Logo from "../logo/Logo";
 
 const Sidebar = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -21,10 +22,7 @@ const Sidebar = () => {
         <HiBars3BottomRight />
       </div>
       <div className={`sidebar ${menuVisible ? 'd-block' : 'd-none'} d-xl-block`}>
-        <section className='contenedor'>
-          <h1 className='brand'>Kimi Olivero</h1>
-          <h3 className='sub-titulo'>Desarrollador Web</h3>
-        </section>
+        <Logo />
         <section>
           <MainMenu />
         </section>

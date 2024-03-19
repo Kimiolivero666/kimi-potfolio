@@ -1,0 +1,33 @@
+.Footer {
+    background: var(--black);
+    border-bottom: 0.2px solid var(--yellow2);
+}
+
+.contenedor-footer{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-footer p{
+    color: var(--white);
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.logo-footer{
+    width: 250px;
+}
+
+@media screen and (max-width: 529px){
+    .contenedor-footer{
+        flex-direction: column;
+    }
+
+    .contenedor-footer p{
+        margin-top: 3rem;
+    }
+    
+}

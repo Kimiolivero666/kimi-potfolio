@@ -12,7 +12,7 @@
     width: 515px;
 }
 
-/* parte izquierda */
+/* parte derecha */
 
 .box-titulo-hero {
     display: flex;
@@ -80,7 +80,24 @@
 
 /* responsive */
 
+@media screen and (max-width: 991px){
+    .contenido-text-hero{
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+}
+
 @media screen and (max-width: 528px){
+
+   
+   
+   
+   
+
+    .box-titulo-hero {
+        margin-top: 0;
+    }
+    
  
     .div {
         width: 18px;
