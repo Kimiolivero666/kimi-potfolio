@@ -11,7 +11,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Contacto = () => {
     return (
-        <div className='Contacto'>
+        <div id='Contacto' className='Contacto'>
             <div className="contacto-titulo text-center">
                 <Titulo titulo='Contáctame' />
             </div>

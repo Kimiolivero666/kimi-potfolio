@@ -6,48 +6,52 @@ import { IoMailOutline } from "react-icons/io5";
 
 const MainMenu = () => {
 
-  const routes = [
-    {
-        label: 'Inicio',
-        icons: IoHomeOutline,
-        href: '/',
-    },
-    {
-        label: 'Sobre mi',
-        icons: GoPerson,
-        href: '/Sobre mi',
-    },
-    {
-        label: 'Trabajos',
-        icons: MdOutlineWorkOutline,
-        href: '/Trabajos',
-    },
-    {
-        label: 'Contacto',
-        icons: IoMailOutline,
-        href: '/Contacto',
-    },
-]
+    const routes = [
+        {
+            label: 'Inicio',
+            icons: IoHomeOutline,
+            id: 'inicio',
+        },
+        {
+            label: 'Sobre mi',
+            icons: GoPerson,
+            id: 'sobre-mi'
+        },
+        {
+            label: 'Trabajos',
+            icons: MdOutlineWorkOutline,
+            id: 'Trabajos',
+        },
+        {
+            label: 'Contacto',
+            icons: IoMailOutline,
+            id: 'Contacto',
+        },
+    ]
 
-  return (
-    <>
-    <li>
-        {routes.map((route) => (
-            <div
-            key={route.href}
-            href={route.href}
-            className='main-menu'>
-                <route.icons />
-                {route.label}
-            </div>
-        ))}
+    const handleScroll = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
 
 
-
-
-    </li>
-</>
-  )
+    return (
+        <>
+            <li>
+                {routes.map((route) => (
+                    <div
+                        key={route.id}
+                        onClick={() => handleScroll(route.id)}
+                        className='main-menu'>
+                        <route.icons />
+                        {route.label}
+                    </div>
+                ))}
+            </li>
+        </>
+    )
 }
 
 export default MainMenu

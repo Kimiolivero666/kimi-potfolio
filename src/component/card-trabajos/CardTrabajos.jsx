@@ -7,7 +7,7 @@ const CardTrabajos = (props) => {
   return (
     <div className='CardTrabajos'>
       <div className='zoom-container'>
-        <img src={props.imagen} alt="" className='img-card' />
+        <img src={props.imagen} alt="" className='img-card'  />
       </div>
       <div className='titulo-sub-tarjeta titulo-sub-tarjeta-hover'>
         <h5>{props.subTitulo}</h5>

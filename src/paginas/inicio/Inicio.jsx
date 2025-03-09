@@ -12,7 +12,7 @@ import Boton from "../../component/boton/Boton";
 
 const Inicio = () => {
     return (
-        <div className='inicio'>
+        <div id="inicio" className='inicio'>
             <div className="d-block d-lg-none text-center imagen-movile">
                 <img src={kimiMovile} alt="" />
             </div>

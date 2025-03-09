@@ -7,7 +7,7 @@ import Carrusel from '../../component/carrusel/Carrusel'
 
 const SobreMi = () => {
     return (
-        <section className='sobre-mi'>
+        <section id='sobre-mi' className='sobre-mi'>
             <div className="sobre-mi-titulo text-center">
                 <Titulo titulo='Sobre Mi' />
             </div>
